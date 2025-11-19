@@ -1,2 +1,2 @@
 # des-eng-experiments
-Visual experiments in design and code
+Visual experiments in design and code.
