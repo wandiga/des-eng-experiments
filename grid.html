@@ -1,0 +1,122 @@
+<!-- Building a Grid with shadows -->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            fontFamily: {
+              mono: ["Space Grotesk", "sans-serif"],
+            },
+          },
+        },
+      };
+    </script>
+  </head>
+  <body>
+    <div class="min-h-screen flex items-center justify-center bg-slate-200">
+      <div class="relative">
+        <!-- Squares -->
+        <div class="bg-clip-border flex flex-col -space-y-[1px] bg-[#01030F] rounded-3xl">
+          <div class="flex flex-row -space-x-[1px]">
+            <div class="w-[3.75rem] h-[3.75rem] border-[1.5px] border-[#505050]"></div>
+            <div class="w-[3.75rem] h-[3.75rem] border-[1.5px] border-[#505050]"></div>
+            <div class="w-[3.75rem] h-[3.75rem] border-[1.5px] border-[#505050]"></div>
+            <div class="w-[3.75rem] h-[3.75rem] border-[1.5px] border-[#505050]"></div>
+            <div class="w-[3.75rem] h-[3.75rem] border-[1.5px] border-[#505050]"></div>
+            <div class="w-[3.75rem] h-[3.75rem] border-[1.5px] border-[#505050]"></div>
+            <div class="w-[3.75rem] h-[3.75rem] border-[1.5px] border-[#505050]"></div>
+            <div class="w-[3.75rem] h-[3.75rem] border-[1.5px] border-[#505050]"></div>
+            <div class="w-[3.75rem] h-[3.75rem] border-[1.5px] border-[#505050]"></div>
+            <div class="w-[3.75rem] h-[3.75rem] border-[1.5px] border-[#505050]"></div>
+          </div>
+          <div class="flex flex-row -space-x-[1px]">
+            <div class="w-[3.75rem] h-[3.75rem] border-[1.5px] border-[#505050]"></div>
+            <div class="w-[3.75rem] h-[3.75rem] border-[1.5px] border-[#505050]"></div>
+            <div class="w-[3.75rem] h-[3.75rem] border-[1.5px] border-[#505050] bg-white/10"></div>
+            <div class="w-[3.75rem] h-[3.75rem] border-[1.5px] border-[#505050]"></div>
+            <div class="w-[3.75rem] h-[3.75rem] border-[1.5px] border-[#505050]"></div>
+            <div class="w-[3.75rem] h-[3.75rem] border-[1.5px] border-[#505050]"></div>
+            <div class="w-[3.75rem] h-[3.75rem] border-[1.5px] border-[#505050]"></div>
+            <div class="w-[3.75rem] h-[3.75rem] border-[1.5px] border-[#505050]"></div>
+            <div class="w-[3.75rem] h-[3.75rem] border-[1.5px] border-[#505050]"></div>
+            <div class="w-[3.75rem] h-[3.75rem] border-[1.5px] border-[#505050]"></div>
+          </div>
+          <div class="flex flex-row -space-x-[1px]">
+            <div class="w-[3.75rem] h-[3.75rem] border-[1.5px] border-[#505050]"></div>
+            <div class="w-[3.75rem] h-[3.75rem] border-[1.5px] border-[#505050]"></div>
+            <div class="w-[3.75rem] h-[3.75rem] border-[1.5px] border-[#505050]"></div>
+            <div class="w-[3.75rem] h-[3.75rem] border-[1.5px] border-[#505050]"></div>
+            <div class="w-[3.75rem] h-[3.75rem] border-[1.5px] border-[#505050]"></div>
+            <div class="w-[3.75rem] h-[3.75rem] border-[1.5px] border-[#505050] bg-white/10"></div>
+            <div class="w-[3.75rem] h-[3.75rem] border-[1.5px] border-[#505050]"></div>
+            <div class="w-[3.75rem] h-[3.75rem] border-[1.5px] border-[#505050]"></div>
+            <div class="w-[3.75rem] h-[3.75rem] border-[1.5px] border-[#505050]"></div>
+            <div class="w-[3.75rem] h-[3.75rem] border-[1.5px] border-[#505050]"></div>
+          </div>
+          <div class="flex flex-row -space-x-[1px]">
+            <div class="w-[3.75rem] h-[3.75rem] border-[1.5px] border-[#505050]"></div>
+            <div class="w-[3.75rem] h-[3.75rem] border-[1.5px] border-[#505050]"></div>
+            <div class="w-[3.75rem] h-[3.75rem] border-[1.5px] border-[#505050]"></div>
+            <div class="w-[3.75rem] h-[3.75rem] border-[1.5px] border-[#505050] bg-white/10"></div>
+            <div class="w-[3.75rem] h-[3.75rem] border-[1.5px] border-[#505050]"></div>
+            <div class="w-[3.75rem] h-[3.75rem] border-[1.5px] border-[#505050]"></div>
+            <div class="w-[3.75rem] h-[3.75rem] border-[1.5px] border-[#505050]"></div>
+            <div class="w-[3.75rem] h-[3.75rem] border-[1.5px] border-[#505050]"></div>
+            <div class="w-[3.75rem] h-[3.75rem] border-[1.5px] border-[#505050]"></div>
+            <div class="w-[3.75rem] h-[3.75rem] border-[1.5px] border-[#505050]"></div>
+          </div>
+          <div class="flex flex-row -space-x-[1px]">
+            <div class="w-[3.75rem] h-[3.75rem] border-[1.5px] border-[#505050]"></div>
+            <div class="w-[3.75rem] h-[3.75rem] border-[1.5px] border-[#505050]"></div>
+            <div class="w-[3.75rem] h-[3.75rem] border-[1.5px] border-[#505050]"></div>
+            <div class="w-[3.75rem] h-[3.75rem] border-[1.5px] border-[#505050]"></div>
+            <div class="w-[3.75rem] h-[3.75rem] border-[1.5px] border-[#505050]"></div>
+            <div class="w-[3.75rem] h-[3.75rem] border-[1.5px] border-[#505050]"></div>
+            <div class="w-[3.75rem] h-[3.75rem] border-[1.5px] border-[#505050]"></div>
+            <div class="w-[3.75rem] h-[3.75rem] border-[1.5px] border-[#505050]"></div>
+            <div class="w-[3.75rem] h-[3.75rem] border-[1.5px] border-[#505050] bg-white/10"></div>
+            <div class="w-[3.75rem] h-[3.75rem] border-[1.5px] border-[#505050]"></div>
+          </div>
+          <div class="flex flex-row -space-x-[1px]">
+            <div class="w-[3.75rem] h-[3.75rem] border-[1.5px] border-[#505050]"></div>
+            <div class="w-[3.75rem] h-[3.75rem] border-[1.5px] border-[#505050]"></div>
+            <div class="w-[3.75rem] h-[3.75rem] border-[1.5px] border-[#505050]"></div>
+            <div class="w-[3.75rem] h-[3.75rem] border-[1.5px] border-[#505050]"></div>
+            <div class="w-[3.75rem] h-[3.75rem] border-[1.5px] border-[#505050]"></div>
+            <div class="w-[3.75rem] h-[3.75rem] border-[1.5px] border-[#505050]"></div>
+            <div class="w-[3.75rem] h-[3.75rem] border-[1.5px] border-[#505050]"></div>
+            <div class="w-[3.75rem] h-[3.75rem] border-[1.5px] border-[#505050]"></div>
+            <div class="w-[3.75rem] h-[3.75rem] border-[1.5px] border-[#505050]"></div>
+            <div class="w-[3.75rem] h-[3.75rem] border-[1.5px] border-[#505050]"></div>
+          </div>
+        </div>
+        <!-- Mask -->
+        <div class="absolute top-0 right-0 bottom-0 left-0 bg-gradient-to-b from-[#01030F50] to-[#0C0D14]"></div>
+      </div>
+    </div>
+  </body>
+</html>
+
+<!-- 
+
+SUMMARY
+
+I don't think that there is a setting for "border outside" as there is "stroke outside" in Figma. I have used the outline class instead:
+
+"outline" : creates the outline
+"outline-1" : sets the outline width to 1px
+"outline-offset-0" : sets the outline to be flush with the element
+"outline-slate-900/[0.07]" : sets the outline to be slate-900 with a 7% opacity
+
+"shadow-[0_1px_3px_0_rgba(15,23,42,0.1),inset_0_-1px_0_0_rgba(0,0,0,0.1)]" : first shadow creates the drop shadow while the second shadow creates the inner shadow.
+
+-->

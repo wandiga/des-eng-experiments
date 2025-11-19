@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dark Button</title>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            fontFamily: {
+              mono: ["Space Grotesk", "sans-serif"],
+            },
+          },
+        },
+      };
+    </script>
+  </head>
+  <body class="font-mono">
+    <div class="flex flex-col min-h-screen justify-center items-center bg-[#0A0A0A]">
+      <button class="text-white font-medium bg-gradient-to-b from-[#121212] to-[#0d0d0d] rounded-lg px-6 py-3 outline outline-1 outline-offset-0 outline-[#808080]/[0.07] shadow-[0_2px_4px_0_rgba(0,0,0,1),inset_0_1px_0_0_rgba(255,255,255,0.03)] active:shadow-[0_0px_4px_0_rgba(0,0,0,1),inset_0_1px_0_0_rgba(255,255,255,0.03)]">Click me</button>
+    </div>
+  </body>
+</html>
